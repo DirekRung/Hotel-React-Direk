@@ -34,6 +34,7 @@ const Login = ({ onLogin }) => {
                   <Form.Control type="text" placeholder="Enter username" value={username} onChange={(e) => setUsername(e.target.value)} />
                 </Form.Group>
 
+
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
